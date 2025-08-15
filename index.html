@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Football Player App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Football Legends</h1>
+    <input type="text" id="searchInput" placeholder="Search player by name..." />
+    <nav>
+      <button onclick="showSection('home-section')">Home</button>
+      <button onclick="showSection('love-section')">Love</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home-section" class="card-container"></section>
+    <section id="love-section" class="card-container hidden"></section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
